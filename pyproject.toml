@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "slack-liacc"
+version = "0.1.0"
+description = ""
+authors = ["tomasosorio <tomas.s.osorio@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+slack-sdk = "^3.15.2"
+psutil = "^5.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
